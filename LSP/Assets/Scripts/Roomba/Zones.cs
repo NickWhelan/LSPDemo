@@ -7,7 +7,6 @@ public class Zones : MonoBehaviour {
 	void Start () {
         Roomba = GetComponentInParent<MoveRoomba>();
 	}
-	
 	// Update is called once per frame
 	void Update () {
 	
