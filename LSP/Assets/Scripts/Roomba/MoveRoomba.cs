@@ -21,11 +21,11 @@ public class MoveRoomba : MonoBehaviour
             }
             if (Left)
             {
-                transform.position -= new Vector3(1, 0, 0);
+                transform.Rotate(0, -1, 0);
             }
             if (Right)
             {
-                transform.position += new Vector3(1, 0, 0);
+                transform.Rotate(0, 1, 0);
             }
             if (Back)
             {
